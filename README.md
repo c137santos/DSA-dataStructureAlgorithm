@@ -35,3 +35,16 @@ POr último, a estrutura de repetição, que permite que trechos de algoritmos s
 * Repetição com variável de controle - para
 
 Observamos que enquanto o laço pode não ser executado, pois a condição está no ínicio, que no repita o laço é executado pelo menos uma vez, pois a condição está no final, e que o para é necessário um número finito e determinado de iterações, pois é preciso conhecer o valor final da variável de controle do laço. 
+
+## Estruturas de dados 
+
+Estruturas de dados existem, pois apenas os tipos primitivos não são capzes de expressar algumas formas complexas de manipulação de informação. POrtanto, é preciso construir novos tipos. Os tipos construídos são uma composição de tipos primitivos. Ou seja, estrutura de dados.
+
+### Variáveis compostas homogênas.
+
+Essas são composta homogêna por serem do mesmo tipo primitivo em uma estrutura. 
+Essas podem ser estrutura composta unidimensional, que devem ser chamadas de vetores. Esses são postos entre colchetes. 
+
+identificador = vetor [LI - limite inicial do vetor, LF - limite final do vetor ] de tipo primitivo.
+
+Para acesso de item, lógico, você usa o nome do identificador, seu simbolo de representação [], e o índice, uma constante, indica qual onde o item se encontra. (Acessos a lista são O(1), pois a indicação do índice permite que o programa procura apenas naquela posição em específica)
