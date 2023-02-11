@@ -117,6 +117,56 @@ def abaco(num1, num2, operador):
         return [num1, num2]
     return resultado
 
+# Estrutura de seleção - pag 62
+# Escreva um algoritmo que apresente por extenso o nome do mês ou mês inválido.
+
+def qual_o_mes(mes):
+    meses= {1: 'janeiro', 2: 'fevereiro', 3: 'março', 4:'abril', 5:'maio', 6:'junho', 7:'julho', 8:'agosto', 9:'setembro', 10:'outubro', 11:'novembro', 12:'dezembro'}
+    if mes in meses:
+        print(meses[mes])
+    else:
+        print("Mês inválido")
+
+
+def data_valida(data):
+    meses= {1: 31, 2: 28, 3: 31, 4: 30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
+    msg = ''
+    if '.' in data:
+        data = data.split('.')
+    elif '/' in data:
+        data = data.split('/')
+    else:
+        msg = "Data no formato inválido"
+    dia, mes, ano = int(data[0]), int(data[1]), int(data[2])
+    if ano % 4 == 0:
+        bissexto = True
+        if not ano % 100 == 0:
+            bissexto = True
+        else:
+            if ano % 400 == 0:
+                bissexto = True
+            else:
+                bissexto= False
+    else:
+        bissexto = False
+    if mes >= 1 and mes <= 12:
+        if mes == 2 and bissexto == True:
+            meses[2] = 29
+        if dia >= 1 and dia <= 31:
+            if dia <= meses[mes]:
+                msg = "Data válida"
+            else:
+                if mes == 2 and dia == 29:
+                    msg = "Dia inválido, pois não se trata de ano bissexto"
+                else:
+                    msg = "Dia inválido"
+        else:
+            msg ="Dia inválido"
+    else:
+        msg ="Mês inválido"
+    return msg
+
+
 
 
 

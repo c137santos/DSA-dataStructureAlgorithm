@@ -56,9 +56,3 @@ def media_pondera_com_pesos(num1,num2,num3,num4,num5):
     media = total/5
     print(media)
 
-def qual_o_mes(mes):
-    meses= {1: 'janeiro', 2: 'fevereiro', 3: 'março', 4:'abril', 5:'maio', 6:'junho', 7:'julho', 8:'agosto', 9:'setembro', 10:'outubro', 11:'novembro', 12:'dezembro'}
-    if mes in meses:
-        print(meses[mes])
-    else:
-        print("Mês inválido")
