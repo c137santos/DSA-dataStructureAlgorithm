@@ -38,13 +38,15 @@ Observamos que enquanto o laço pode não ser executado, pois a condição está
 
 ## Estruturas de dados 
 
-Estruturas de dados existem, pois apenas os tipos primitivos não são capzes de expressar algumas formas complexas de manipulação de informação. POrtanto, é preciso construir novos tipos. Os tipos construídos são uma composição de tipos primitivos. Ou seja, estrutura de dados.
+Estruturas de dados existem, porque apenas os tipos primitivos não são capazes de expressar algumas formas complexas de manipulação de informação. Portanto, é preciso construir novos tipos. Os tipos construídos são uma composição de tipos primitivos, uma estrutura de dados.
 
 ### Variáveis compostas homogênas.
 
-Essas são composta homogêna por serem do mesmo tipo primitivo em uma estrutura. 
-Essas podem ser estrutura composta unidimensional, que devem ser chamadas de vetores. Esses são postos entre colchetes. 
+As compostas homogênas são do mesmo tipo primitivo dentro de uma estrutura. 
+Essas podem ser estrutura unidimensional, vetores. Esses são postos entre colchetes [] 
 
-identificador = vetor [LI - limite inicial do vetor, LF - limite final do vetor ] de tipo primitivo.
+identificador = vetor *[* LI - limite inicial do vetor, LF - limite final do vetor *]* de tipo primitivo.
 
-Para acesso de item, lógico, você usa o nome do identificador, seu simbolo de representação [], e o índice, uma constante, indica qual onde o item se encontra. (Acessos a lista são O(1), pois a indicação do índice permite que o programa procura apenas naquela posição em específica)
+Para acesso de item, usa-se o nome do identificador, seu simbolo de representação [], e o índice (uma constante) que indica onde o item se encontra. 
+
+O Acessos a lista são O(1), pois a indicação do índice permite que o programa procura apenas naquela posição em específica
