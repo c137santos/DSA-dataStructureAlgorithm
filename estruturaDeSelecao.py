@@ -89,3 +89,34 @@ def test_encadeada_homogenea_com_escolha():
     assert produto == result
 
 #  ou heterogêna, onde não é possível identificar um padrão lógico de contrução da seleção encadeada. 
+
+# Exercício de fixação.
+# Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem descrescente. Utilize para tal uma seleção encadeada. 
+
+def organizador_crescente(num1, num2, num3):
+    if num1 > num2:
+        num1, num2 = num2, num1
+    if num1 > num3:
+        num1, num3 = num3, num1
+    if num2 > num3:
+        num2, num3 = num3, num2
+    return [num1, num2,num3]
+
+# ELabore um algoritmo que leia o valor de dois números inteiros e a operação aritmética desejada; calcule, então, a resposta adequada. 
+
+def abaco(num1, num2, operador):
+    if operador == '-':
+        resultado = num1 - num2
+    elif operador == '+':
+        resultado = num1 + num2
+    elif operador == '*':
+        resultado == num1 * num2
+    elif operador == '/':
+        resultado == num1 / num2
+    else: 
+        return [num1, num2]
+    return resultado
+
+
+
+

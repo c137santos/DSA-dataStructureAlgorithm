@@ -20,3 +20,18 @@ As expressões aritméticas, lógicas e relacionais, sendo que as duas últimas 
 Temos já resumos sobre algoritmos de seleção. Basicamente a manipulação de condicionais a blocos de código. 
 
 Um dos exercícios propostos é a transformações de certas estruturas redundantes de if e else em estrutura de seleção composta ou seleção encadeada, que nesse último caso, existe categorias como homogêneas e heterogênas. 
+
+
+Estruturas de repetição podem ser feito com enquanto determinada condição for verdadeira, ou com número específicos de repetições. Esses são critérios de parada de loop.
+Em uma operação com números indetermináveis de iterações, um bom critério de parada é o "se enquanto". É comum que a estrutura de repetição utilize uma variável acumulativa, que guarda resultados a cada iteração para resultado final.
+
+Neste capítulo vimos que o fluxo de execução de algoritmo segue uma estrutura sequencial, significa ser executado passo a passo, sequencialmente. Vimos a estrutura de seleção, que permite que uma ação seja ou não executada, dependendo do valor resultante da inspeção de uma condição. A seleção pode ser simples, quando contém apenas a cláusula então, ou composta, quando contém então e senão. 
+QUando é encadeada, pode ser homogêna ou heterogêna. 
+Verificamos que seleções encadeadas homogênas são muito comuns, por isso especificamos a seleção de múltipla escolha, que apresenta casos que são avaliados. 
+POr último, a estrutura de repetição, que permite que trechos de algoritmos sejam repetidos conforme certos critérios de parada. Verificando que podemos construir laços de repetição de três maneira.
+
+* Repetição com teste no início - enquanto
+* Repetição com teste final - repita
+* Repetição com variável de controle - para
+
+Observamos que enquanto o laço pode não ser executado, pois a condição está no ínicio, que no repita o laço é executado pelo menos uma vez, pois a condição está no final, e que o para é necessário um número finito e determinado de iterações, pois é preciso conhecer o valor final da variável de controle do laço. 
