@@ -1,8 +1,65 @@
-# Repositório educacional 
+# Estrutura de Dados - Repositório Educacional
 
-Esse repositório foi criado a parti do livro "Lógica de programação: a construção de algoritmos e estrutura de dados" de André Luiz Villar Forbellone, Henri Frederico Eberspachr.
+Professor: Sakauê
+Metodológia: Apresentação de conceitos das estruturas de dados
+Bibliografia:
+[Algoritmos em Linguagem C](https://www.ime.usp.br/~pf/algoritmos-livro/downloads/Algoritmos-em-linguagem-C.pdf)
+[Algoritmos](https://www.ime.usp.br/~pf/algoritmos/)
+Lógica de programação: a construção de algoritmos e estrutura de dados" de André Luiz Villar Forbellone, Henri Frederico Eberspachr.
 
-Aqui terá resumos sobre o livro, resolução de exercícios propostos. Isso é um repositório mais educativo e de consulta para mim mesmo. 
+# Cronograma de dados
+
+| Data       | Dia da Semana | Número de Aulas | Atividade                        |
+|------------|---------------|-----------------|----------------------------------|
+| **Agosto** |               | **10 aulas**    |                                  |
+| 15/08      | Quinta-feira   | 1 aula          | Estudar Listas Encadeadas         |
+| 16/08      | Sexta-feira    | 1 aula          | Estudar Listas Encadeadas         |
+| 19/08      | Segunda-feira  | 2 aulas         | Estudar Listas Encadeadas         |
+| 22/08      | Quinta-feira   | 1 aula          | Estudar Listas Encadeadas         |
+| 23/08      | Sexta-feira    | 1 aula          | Apresentar Listas Encadeadas      |
+| 26/08      | Segunda-feira  | 2 aulas         | Estudar Pilha Sem Cabeça          |
+| 29/08      | Quinta-feira   | 1 aula          | Estudar Pilha Sem Cabeça          |
+| 30/08      | Sexta-feira    | 1 aula          | Estudar Pilha Sem Cabeça          |
+| **Setembro**|               | **14 aulas**    |                                   |
+| 02/09      | Segunda-feira  | 2 aulas         | Estudar Pilha Sem Cabeça          |
+| 05/09      | Quinta-feira   | 1 aula          | Estudar Pilha Sem Cabeça          |
+| 06/09      | Sexta-feira    | 1 aula          | Apresentar Pilha Sem Cabeça       |
+| 09/09      | Segunda-feira  | 2 aulas         | Estudar Filas Sem Cabeça          |
+| 12/09      | Quinta-feira   | 1 aula          | Estudar Filas Sem Cabeça          |
+| 13/09      | Sexta-feira    | 1 aula          | Estudar Filas Sem Cabeça          |
+| 16/09      | Segunda-feira  | 2 aulas         | Estudar Filas Sem Cabeça          |
+| 19/09      | Quinta-feira   | 1 aula          | Apresentar Filas Sem Cabeça       |
+| 20/09      | Sexta-feira    | 1 aula          | Estudar Árvores Inserção          |
+| 23/09      | Segunda-feira  | 2 aulas         | Estudar Árvores Inserção          |
+| 26/09      | Quinta-feira   | 1 aula          | Estudar Árvores Inserção          |
+| 27/09      | Sexta-feira    | 1 aula          | Estudar Árvores Inserção          |
+| **Outubro** |               | **18 aulas**    |                                   |
+| 01/10      | Segunda-feira  | 2 aulas         | Estudar Árvores Inserção          |
+| 03/10      | Quinta-feira   | 1 aula          | Apresentar Árvores Inserção       |
+| 04/10      | Sexta-feira    | 1 aula          | Estudar Árvores Percorrimento     |
+| 07/10      | Segunda-feira  | 2 aulas         | Estudar Árvores Percorrimento     |
+| 10/10      | Quinta-feira   | 1 aula          | Estudar Árvores Percorrimento     |
+| 11/10      | Sexta-feira    | 1 aula          | Apresentar Árvores Percorrimento  |
+| 14/10      | Segunda-feira  | 2 aulas         | Estudar Árvores Remoção           |
+| 17/10      | Quinta-feira   | 1 aula          | Estudar Árvores Remoção           |
+| 18/10      | Sexta-feira    | 1 aula          | Apresentar Árvores Remoção        |
+| 21/10      | Segunda-feira  | 2 aulas         | Estudar Ordenação Select          |
+| 24/10      | Quinta-feira   | 1 aula          | Estudar Ordenação Select          |
+| 25/10      | Sexta-feira    | 1 aula          | Apresentar Ordenação Select       |
+| 28/10      | Segunda-feira  | 2 aulas         | Estudar Ordenação Insert          |
+| 01/11      | Sexta-feira    | 1 aula          | Estudar Ordenação Insert          |
+| 04/11      | Segunda-feira  | 2 aulas         | Estudar Ordenação Insert          |
+| 07/11      | Quinta-feira   | 1 aula          | Apresentar Ordenação Insert       |
+| 08/11      | Sexta-feira    | 1 aula          | Estudar Ordenação Merge           |
+| 11/11      | Segunda-feira  | 2 aulas         | Estudar Ordenação Merge           |
+| 14/11      | Quinta-feira   | 1 aula          | Estudar Ordenação Merge           |
+| 18/11      | Segunda-feira  | 2 aulas         | Apresentar Ordenação Quick           |
+| 21/11      | Quinta-feira   | 1 aula          | Estudar Ordenação Quick           |
+| 22/11      | Sexta-feira    | 1 aula          | Apresentar Ordenação Quick        |
+| 25/11      | Segunda-feira  | 2 aulas         | Estudar Ordenação Shell           |
+| 28/11      | Quinta-feira   | 1 aula          | Estudar Ordenação Shell           |
+| 29/11      | Sexta-feira    | 1 aula          | Apresentar Ordenação Shell        |
+
 
 ### Capítulo 01
 
