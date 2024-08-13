@@ -5,7 +5,6 @@ Metodológia: Apresentação de conceitos das estruturas de dados
 Bibliografia:
 [Algoritmos em Linguagem C](https://www.ime.usp.br/~pf/algoritmos-livro/downloads/Algoritmos-em-linguagem-C.pdf)
 [Algoritmos](https://www.ime.usp.br/~pf/algoritmos/)
-Lógica de programação: a construção de algoritmos e estrutura de dados" de André Luiz Villar Forbellone, Henri Frederico Eberspachr.
 
 # Cronograma de dados
 
@@ -60,6 +59,10 @@ Lógica de programação: a construção de algoritmos e estrutura de dados" de 
 | 28/11      | Quinta-feira   | 1 aula          | Estudar Ordenação Shell           |
 | 29/11      | Sexta-feira    | 1 aula          | Apresentar Ordenação Shell        |
 
+
+### Aula 12 de agosto de 2024 
+
+Feito exercício dos primos, que consiste em verificar se um número é primo ou não [aqui](./primos.py).
 
 ### Capítulo 01
 
